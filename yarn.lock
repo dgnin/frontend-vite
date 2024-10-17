@@ -735,6 +735,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@faker-js/faker@npm:^9.0.3":
+  version: 9.0.3
+  resolution: "@faker-js/faker@npm:9.0.3"
+  checksum: 10c0/fde52946e7042e6273cf2ea3726a8a4b794c5b0fa8ac22cb9edcc5c436aec1b07fcb925e13abd663e86cd35d0286be0c65639d429b21bcd458205edaaa6394d0
+  languageName: node
+  linkType: hard
+
 "@humanfs/core@npm:^0.19.0":
   version: 0.19.0
   resolution: "@humanfs/core@npm:0.19.0"
@@ -2970,6 +2977,7 @@ __metadata:
   resolution: "frontend-vite@workspace:."
   dependencies:
     "@eslint/js": "npm:^9.12.0"
+    "@faker-js/faker": "npm:^9.0.3"
     "@testing-library/dom": "npm:^10.4.0"
     "@testing-library/jest-dom": "npm:^6.6.1"
     "@testing-library/react": "npm:^16.0.1"
