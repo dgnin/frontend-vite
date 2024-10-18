@@ -3,7 +3,7 @@ import { Config } from 'jest';
 const config: Config = {
   testEnvironment: 'jsdom',
   transform: { '^.+\\.(ts|tsx)$': 'ts-jest' },
-  testRegex: '<rootDir>/tests/.*\\.test\\.(ts|tsx)$',
+  testRegex: '/tests/.*\\.test\\.(ts|tsx)$',
   moduleNameMapper: {
     '^.*\\.scss$': 'identity-obj-proxy',
   },
