@@ -6,6 +6,10 @@ const config: Config = {
   testRegex: '/tests/.*\\.test\\.(ts|tsx)$',
   moduleNameMapper: {
     '^.*\\.scss$': 'identity-obj-proxy',
+    '^@styles/(.*)$': '<rootDir>/src/assets/styles/$1',
+    '^@components/(.*)$': '<rootDir>/src/components/$1',
+    '^@modules/(.*)$': '<rootDir>/src/modules/$1',
+    '^@sections/(.*)$': '<rootDir>/src/sections/$1',
   },
   setupFilesAfterEnv: ['<rootDir>/tests/setupTests.ts'],
 };

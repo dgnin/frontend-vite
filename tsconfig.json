@@ -10,6 +10,12 @@
     "allowImportingTsExtensions": true,
     "module": "ESNext",
     "moduleResolution": "bundler",
+    "paths": {
+      "@styles/*": ["./src/assets/styles/*"],
+      "@components/*": ["./src/components/*"],
+      "@modules/*": ["./src/modules/*"],
+      "@sections/*": ["./src/sections/*"]
+    },
     "noEmit": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
