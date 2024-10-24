@@ -29,6 +29,7 @@ export default tsEslint.config(
     },
     rules: {
       ...reactHooks.configs.recommended.rules,
+      '@typescript-eslint/no-extraneous-class': 'off',
     },
   },
 );
